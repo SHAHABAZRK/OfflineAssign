@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Selected departure as Paris and destination as London]]>
+    </line>
+    <line>
+      <![CDATA[Id validation is scuuceefull]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27215" started-at="2020-08-28T14:56:52 IST" finished-at="2020-08-28T14:57:19 IST">
+    <groups>
+    </groups>
+    <test name="UITest" duration-ms="22268" started-at="2020-08-28T14:56:52 IST" finished-at="2020-08-28T14:57:14 IST">
+      <class name="com.blazedemo.testCases.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.testCases.TestRunner@3fd7a715]" name="setUp" is-config="true" duration-ms="16" started-at="2020-08-28T14:56:52 IST" finished-at="2020-08-28T14:56:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.blazedemo.testCases.TestRunner@3fd7a715]" name="launchApplication" is-config="true" duration-ms="7494" started-at="2020-08-28T14:56:52 IST" finished-at="2020-08-28T14:56:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="ValidatePlacesEntered()[pri:1, instance:com.blazedemo.testCases.TestRunner@3fd7a715]" name="ValidatePlacesEntered" duration-ms="1382" started-at="2020-08-28T14:56:59 IST" finished-at="2020-08-28T14:57:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected departure as Paris and destination as London]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidatePlacesEntered -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.blazedemo.testCases.TestRunner@3fd7a715]" name="closeBrowser" is-config="true" duration-ms="164" started-at="2020-08-28T14:57:01 IST" finished-at="2020-08-28T14:57:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.blazedemo.testCases.TestRunner@3fd7a715]" name="launchApplication" is-config="true" duration-ms="7674" started-at="2020-08-28T14:57:01 IST" finished-at="2020-08-28T14:57:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="ValidateBookingId()[pri:2, instance:com.blazedemo.testCases.TestRunner@3fd7a715]" name="ValidateBookingId" duration-ms="5294" started-at="2020-08-28T14:57:09 IST" finished-at="2020-08-28T14:57:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Id validation is scuuceefull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateBookingId -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.blazedemo.testCases.TestRunner@3fd7a715]" name="closeBrowser" is-config="true" duration-ms="195" started-at="2020-08-28T14:57:14 IST" finished-at="2020-08-28T14:57:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.blazedemo.testCases.TestRunner -->
+    </test> <!-- UITest -->
+    <test name="APITest" duration-ms="4837" started-at="2020-08-28T14:57:14 IST" finished-at="2020-08-28T14:57:19 IST">
+      <class name="com.spacex.apiTesting.SpaceXAPITesting">
+        <test-method status="PASS" signature="BaseUri()[pri:0, instance:com.spacex.apiTesting.SpaceXAPITesting@e320068]" name="BaseUri" is-config="true" duration-ms="188" started-at="2020-08-28T14:57:14 IST" finished-at="2020-08-28T14:57:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseUri -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spacex.apiTesting.SpaceXAPITesting@e320068]" name="setUp" is-config="true" duration-ms="0" started-at="2020-08-28T14:57:14 IST" finished-at="2020-08-28T14:57:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResponse()[pri:1, instance:com.spacex.apiTesting.SpaceXAPITesting@e320068]" name="getResponse" duration-ms="2363" started-at="2020-08-28T14:57:14 IST" finished-at="2020-08-28T14:57:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponse -->
+        <test-method status="PASS" signature="validateResponseHeader()[pri:2, instance:com.spacex.apiTesting.SpaceXAPITesting@e320068]" name="validateResponseHeader" duration-ms="1192" started-at="2020-08-28T14:57:17 IST" finished-at="2020-08-28T14:57:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseHeader -->
+        <test-method status="PASS" signature="BaseUri()[pri:0, instance:com.spacex.apiTesting.SpaceXAPITesting@e320068]" name="BaseUri" is-config="true" duration-ms="0" started-at="2020-08-28T14:57:17 IST" finished-at="2020-08-28T14:57:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseUri -->
+        <test-method status="PASS" signature="verifyInvalidEndPoint()[pri:3, instance:com.spacex.apiTesting.SpaceXAPITesting@e320068]" name="verifyInvalidEndPoint" duration-ms="1078" started-at="2020-08-28T14:57:18 IST" finished-at="2020-08-28T14:57:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEndPoint -->
+        <test-method status="PASS" signature="BaseUri()[pri:0, instance:com.spacex.apiTesting.SpaceXAPITesting@e320068]" name="BaseUri" is-config="true" duration-ms="0" started-at="2020-08-28T14:57:18 IST" finished-at="2020-08-28T14:57:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseUri -->
+      </class> <!-- com.spacex.apiTesting.SpaceXAPITesting -->
+    </test> <!-- APITest -->
+  </suite> <!-- Suite -->
+</testng-results>
